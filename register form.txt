@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>Forms</title>
+</head>
+<body bg color="black">
+<img src="college logo1.jpg" width="100" height="100" align="left"/> 
+<img src="college logo2.jpg" width="100" height="100" align="right"/>
+<h1><font color="pink"><center>KONGU ENGINEERING COLLEGE</center></font></h1>
+<h1><font color="yellow"><u><b><center>Registeration Form</centre></b></u></font></h1>
+<form>
+<Labd>Frist Name:</Labd><br>
+<input type="text" Name="Frist Name" size ="10"/><br>
+<Labd>Middle Name:</Labd><br>
+<input type="text" Name="Middle Name" size="10"/><br>
+<Labd>Last Name:</Labd><br>
+<input type="text" name="Last Name" size="10"/><br>
+</form>
+<form>
+<Labd>course:</Labd><br>
+<Select>
+<option value=course">course</option><br>
+<option value="Bsc">Bsc</option><br>
+<option value="Msc">msc</option><br>
+<option value="BE">BE</option><br>
+<option value="B.Tech">B.Tech</option><br>
+<option value="ME">ME</option><br>
+</Select>
+</form>
+<form>
+<labd>Gender</labd><br>
+<input type ="Radio" name="MALE"/>MALE<br>
+<input type="Radio" name=FEMALE"/>FEMALE<br>
+<input type="Radio" name=OTHER"/>OTHER<br>
+<input type="button" value="Submit"/>
+</form>
+</body>
+</html>
